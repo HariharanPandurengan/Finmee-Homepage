@@ -17,7 +17,7 @@ function HomePage() {
                         </div>
                     </div>
                     <div id="hm-childdiv2">
-                        <img id="sec1-img" src="https://ntwist.com/wp-content/uploads/2023/01/home-image-icons-v6.png"></img>
+                        <img id="sec1-img" alt="sec1-img" src="https://ntwist.com/wp-content/uploads/2023/01/home-image-icons-v6.png"></img>
                     </div>
                 </div>
             </section>
@@ -33,14 +33,14 @@ function HomePage() {
                         <button className="sec2andmore-button">Read More</button>
                     </div>
                     <div className="sec2andmore-childDiv2">
-                        <img className="sec2andmore-img" src="https://ntwist.com/wp-content/uploads/2023/01/iStock-1339284457-2048x1365.jpg"></img>
+                        <img className="sec2andmore-img" alt="sec2-img" src="https://ntwist.com/wp-content/uploads/2023/01/iStock-1339284457-2048x1365.jpg"></img>
                     </div>
                 </div>
             </section>
             <section id="section3" className="section2andmore CommonSection" style={{overflow:"hidden"}}>
                 <div className="sec2andmore-parentDiv">
                     <div className="sec2andmore-childDiv1">
-                        <img className="sec2andmore-img" src="https://ntwist.com/wp-content/uploads/2021/12/iStock-1284372575.jpg"></img>
+                        <img className="sec2andmore-img" alt="sec3-img" src="https://ntwist.com/wp-content/uploads/2021/12/iStock-1284372575.jpg"></img>
                     </div>
                     <div className="sec2andmore-childDiv2">
                         <h6 className="sec2andmore-h6">
@@ -68,14 +68,14 @@ function HomePage() {
                         <button className="sec2andmore-button" id="sec4-button">Read More</button>
                     </div>
                     <div className="sec2andmore-childDiv2">
-                        <img className="sec2andmore-img" src="https://ntwist.com/wp-content/uploads/2021/12/iStock-1322302283.jpg"></img>
+                        <img className="sec2andmore-img" alt="sec4-img" src="https://ntwist.com/wp-content/uploads/2021/12/iStock-1322302283.jpg"></img>
                     </div>
                 </div>
             </section>
             <section id="section5" className="section2andmore CommonSection" style={{overflow:"hidden"}}>
                 <div className="sec2andmore-parentDiv">
                     <div className="sec2andmore-childDiv1">
-                        <img className="sec2andmore-img" src="https://ntwist.com/wp-content/uploads/2022/03/2021-02-oil-and-gas-digital-hero-e1648984580884.png"></img>
+                        <img className="sec2andmore-img" alt="sec5-img" src="https://ntwist.com/wp-content/uploads/2022/03/2021-02-oil-and-gas-digital-hero-e1648984580884.png"></img>
                     </div>
                     <div className="sec2andmore-childDiv2">
                         <h6 className="sec2andmore-h6">
@@ -93,7 +93,7 @@ function HomePage() {
             </section>
             <section id="footer" className="CommonSection" style={{overflow:"hidden"}}>
                 <div id="footer-parent-div">
-                    <img id="foot-img" src="https://ntwist.com/wp-content/uploads/2021/12/ntwistlight.png"></img>
+                    <img id="foot-img" alt="footer-img" src="https://ntwist.com/wp-content/uploads/2021/12/ntwistlight.png"></img>
                     <ul className="nav-ul footer-ul">
                         <li className="nav-li"><Link className="nav-link footer-link" to="*">Home</Link></li>
                         <li className="nav-li"><Link className="nav-link footer-link" to="*">About Us</Link></li>

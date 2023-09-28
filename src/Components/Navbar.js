@@ -32,8 +32,8 @@ function Navbar() {
                <div id="nav-div">
                     <div>
                         {
-                            scrolled ? <img width="150" src="https://ntwist.com/wp-content/uploads/2021/12/ntwist-logo-dark.png" /> 
-                            : <img width="150" src="https://ntwist.com/wp-content/uploads/2021/12/ntwistlight.png" />
+                            scrolled ? <img width="150" alt="logo" src="https://ntwist.com/wp-content/uploads/2021/12/ntwist-logo-dark.png" /> 
+                            : <img width="150" alt="logo" src="https://ntwist.com/wp-content/uploads/2021/12/ntwistlight.png" />
                         }
                     </div>
                     <div id="mobile-navchild-div2">
@@ -44,7 +44,7 @@ function Navbar() {
                       mobileNavbar && 
                       <div id="mobileNav">
                         <div style={{width:"95%", display:"flex",justifyContent:"space-between",margin:"10px"}}>
-                          <img width={100} src="https://ntwist.com/wp-content/uploads/2021/12/ntwist-logo-dark.png"/>
+                          <img width={100} alt="logo" src="https://ntwist.com/wp-content/uploads/2021/12/ntwist-logo-dark.png"/>
                           <FaTimes onClick={()=>setMobileNavbar(false)}></FaTimes>
                         </div>
                         <div style={{position:"fixed",left:"30%",top:"40%"}}>
