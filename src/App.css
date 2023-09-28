@@ -459,7 +459,10 @@ h2{
 
 @media screen and (max-width: 440px){
   h2{
-    font-size: 20px;
+    font-size: 25px;
+  }
+  #hm-childdiv2{
+    max-width: 100px;
   }
   .sec2andmore-parentDiv{
     max-width: 350px;
