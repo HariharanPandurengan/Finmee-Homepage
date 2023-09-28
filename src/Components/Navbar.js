@@ -47,7 +47,7 @@ function Navbar() {
                           <img width={100} alt="logo" src="https://ntwist.com/wp-content/uploads/2021/12/ntwist-logo-dark.png"/>
                           <FaTimes onClick={()=>setMobileNavbar(false)}></FaTimes>
                         </div>
-                        <div style={{position:"fixed",left:"30%",top:"40%"}}>
+                        <div style={{position:"fixed",left:"30%",top:"30%"}}>
                         <ul className="Mbnav-ul">
                             <li className="Mbnav-li"><Link className="Mbnav-link" to="/">Home</Link></li>
                             <ul style={{padding:"0"}}>
