@@ -169,6 +169,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 #hm-childdiv1{
@@ -461,8 +462,14 @@ h2{
   h2{
     font-size: 25px;
   }
+  #hm-div1{
+    height: 220px;
+  }
   #hm-childdiv2{
     max-width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
   }
   .sec2andmore-parentDiv{
     max-width: 350px;
